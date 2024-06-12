@@ -40,7 +40,7 @@ app.post("/delete",(req,res)=>{
             res.json({"status":"error"})
         }
     )
-})
+}) 
 
 
 app.get("/view",(req,res)=>{
@@ -51,6 +51,6 @@ app.get("/view",(req,res)=>{
     })
 })
 
-app.listen(8081,()=>{
+app.listen(8080,()=>{
     console.log("server started")
 })
